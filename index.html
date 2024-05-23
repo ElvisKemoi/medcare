@@ -1,375 +1,603 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medcare | Hospital Website</title> 
-    <!-- Page Icon -->
-    <link rel="shortcut icon" href="image/heartbeat-solid.svg" type="image/x-icon">   
-    <!-- font-awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
-    <!-- Custom Css File Link -->
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <!-- Header Section Starts -->
-    <div class="header">
-        <a href="#" class="logo"><i class="fas fa-heartbeat"></i> medcare.</a>
-        <nav class="navbar">
-            <a href="#home">home</a>
-            <a href="#services">services</a>
-            <a href="#about">about</a>
-            <a href="#doctors">doctors</a>
-            <a href="#book">book</a>
-            <a href="#review">review</a>
-            <a href="#blogs">blogs</a>
-        </nav>
-        <div id="menu-btn" class="fas fa-bars"></div>
-    </div>
-    <!-- Header Section End -->
+<html lang="en" >
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Katito Medical Centre</title>
+		<!-- Page Icon -->
+        
+		<link
+        rel="shortcut icon"
+        href="image/image.png"
+        type="image/x-icon"
+		/>
+		<!-- font-awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+		/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<!-- Custom Css File Link -->
+		<link rel="stylesheet" href="./css/style.css" />
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-    <!-- Home Section starts -->
-    <section class="home" id="home">
-        <div class="image">
-            <img src="./image/home-img.svg" alt="home-img.svg">
-        </div>
-        <div class="content">
-            <h3>stay safe, stay healthy</h3>
-            <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Rem Sed Autem Vero? Magnam, Est Laboriosam!</p>
-            <a href="#" class="btn">contact us <span class="fas fa-chevron-right"></span> </a>
-        </div>
-    </section>
-    <!-- Home Section End -->
 
-    <!-- icons section starts  -->
-    <section class="icons-container">
-        <div class="icons">
-            <i class="fas fa-user-md"></i>
-            <h3>140+</h3>
-            <p>doctors at work</p>
-        </div>
-        <div class="icons">
-            <i class="fas fa-users"></i>
-            <h3>1040+</h3>
-            <p>satisfied patients</p>
-        </div>
-        <div class="icons">
-            <i class="fas fa-procedures"></i>
-            <h3>500+</h3>
-            <p>bed facility</p>
-        </div>
-        <div class="icons">
-            <i class="fas fa-hospital"></i>
-            <h3>80+</h3>
-            <p>available hospitals</p>
-        </div>
-    </section>
-    <!-- icons section End  -->
+	</head>
+	<body>
+		<!-- Header Section Starts -->
+		<div class="header">
+			<img id="headerLogo" src="image/image.png" alt="" width="50px" height="50px" />
+			<a href="#" class="logo"
+				> Katito Medical </a
+			>
+			<nav class="navbar">
+				<a href="#home">home</a>
+				<a href="#values">values</a>
+				<a href="#services">services</a>
+				<a href="#about">about</a>
+				<a href="#doctors">doctors</a>
+				
+				<a href="#blogs">blogs</a>
+					<a href="tel:+254750677900"><i class="fas fa-phone fs-1"></i></a>
 
-    <!-- Service section Starts  -->
-    <section class="services" id="services">
-        <h1 class="heading">our <span>services</span></h1>
-        <div class="box-container">
-            <div class="box">
-                <i class="fas fa-notes-medical"></i>
-                <h3>free checkups</h3>
-                <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Ad, Omnis.</p>
-                <a href="#" class="btn">learn more <span class="fas fa-chevron-right"></span> </a>
-            </div>
-            <div class="box">
-                <i class="fas fa-ambulance"></i>
-                <h3>24/7 ambulance</h3>
-                <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Ad, Omnis.</p>
-                <a href="#" class="btn">learn more <span class="fas fa-chevron-right"></span> </a>
-            </div>
-            <div class="box">
-                <i class="fas fa-user-md"></i>
-                <h3>expert doctors</h3>
-                <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Ad, Omnis.</p>
-                <a href="#" class="btn">learn more <span class="fas fa-chevron-right"></span> </a>
-            </div>
-            <div class="box">
-                <i class="fas fa-pills"></i>
-                <h3>medicines</h3>
-                <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Ad, Omnis.</p>
-                <a href="#" class="btn">learn more <span class="fas fa-chevron-right"></span> </a>
-            </div>
-            <div class="box">
-                <i class="fas fa-procedures"></i>
-                <h3>bed facility</h3>
-                <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Ad, Omnis.</p>
-                <a href="#" class="btn">learn more <span class="fas fa-chevron-right"></span> </a>
-            </div>
-            <div class="box">
-                <i class="fas fa-heartbeat"></i>
-                <h3>total care</h3>
-                <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Ad, Omnis.</p>
-                <a href="#" class="btn">learn more <span class="fas fa-chevron-right"></span> </a>
-            </div>
-        </div>
-    </section>
-    <!-- Service section End  -->
+                <a href="#" class="btn">Book an Appointment <span class="fas fa-chevron-right"></span>
+				</a>
+			</nav>
+			<div id="menu-btn" class="fas fa-bars"></div>
+		</div>
+		<!-- Header Section End -->
 
-    <!-- About section Starts  -->
-    <section class="about" id="about">
-        <h1 class="heading"><span>about</span> us</h1>
-        <div class="row">
-            <div class="image">
-                <img src="./image/about-img.svg" alt="">
-            </div>
-            <div class="content">
-                <h3>we take care of your healthy life</h3>
-                <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Iure Ducimus, Quod Ex Cupiditate Ullam In Assumenda Maiores Et Culpa Odit Tempora Ipsam Qui, Quisquam Quis Facere Iste Fuga, Minus Nesciunt.</p>
-                <p>Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing Elit. Natus Vero Ipsam Laborum Porro Voluptates Voluptatibus A Nihil Temporibus Deserunt Vel?</p>
-                <a href="#" class="btn">learn more <span class="fas fa-chevron-right"></span> </a>
-            </div>
-        </div>
-    </section>
-    <!-- About section End  -->
+		<!-- Home Section starts -->
+		<section class="home" id="home">
+			<div class="image">
 
-    <!-- Doctors section Starts  -->
-    <section class="doctors" id="doctors">
-        <h1  class="heading">our <span>doctors</span></h1>
-        <div class="box-container">
-            <div class="box">
-                <img src="./image/doc-1.jpg" alt="">
-                <h3>Dr. john deo</h3>
-                <span>expert doctor</span>
-                <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="./image/doc-2.jpg" alt="">
-                <h3>Dr. Pullen</h3>
-                <span>expert doctor</span>
-                <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="./image/doc-3.jpg" alt="">
-                <h3> Dr. Swallow</h3>
-                <span>expert doctor</span>
-                <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="./image/doc-4.jpg" alt="">
-                <h3>Dr. Mangle</h3>
-                <span>expert doctor</span>
-                <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="./image/doc-5.jpg" alt="">
-                <h3>Dr. Fillmore</h3>
-                <span>expert doctor</span>
-                <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="./image/doc-6.jpg" alt="">
-                <h3>Dr. Watamaniuk</h3>
-                <span>expert doctor</span>
-                <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Doctors section Ends  -->
-
-    <!-- Book section Starts  -->
-    <section class="book" id="book">
-        <h1 class="heading"><span>book</span> now</h1>
-        <div class="row">
-            <div class="image">
-                <img src="./image/book-img.svg" alt="">
-            </div>
-            <form action="">
-                <h3>book appointment</h3>
-                <input type="text" placeholder="your name" class="box">
-                <input type="number" placeholder="your number" class="box">
-                <input type="email" placeholder="your email" class="box">
-                <input type="date" class="box">
-                <input type="submit" value="book now" class="btn">
-            </form>
-        </div>
-    </section>
-    <!-- Book section End  -->
-
-    <!-- Review section Starts  -->
-    <section class="review" id="review">
-        <h1 class="heading">client's <span>review</span></h1>
-        <div class="box-container">
-            <div class="box">
-                <img src="./image/pic-1.png" alt="">
-                <h3>Jazmin Archer</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <p class="text">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Laboriosam Sapiente Nihil Aperiam? Repellat Sequi Nisi Aliquid Perspiciatis Libero Nobis Rem Numquam Nesciunt Alias Sapiente Minus Voluptatem, Reiciendis Consequuntur Optio Dolorem!</p>
-            </div>
-            <div class="box">
-                <img src="./image/pic-2.png" alt="">
-                <h3>Jazmin Archer</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <p class="text">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Laboriosam Sapiente Nihil Aperiam? Repellat Sequi Nisi Aliquid Perspiciatis Libero Nobis Rem Numquam Nesciunt Alias Sapiente Minus Voluptatem, Reiciendis Consequuntur Optio Dolorem!</p>
-            </div>
-            <div class="box">
-                <img src="./image/pic-3.png" alt="">
-                <h3>Abdiel Galloway</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <p class="text">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Laboriosam Sapiente Nihil Aperiam? Repellat Sequi Nisi Aliquid Perspiciatis Libero Nobis Rem Numquam Nesciunt Alias Sapiente Minus Voluptatem, Reiciendis Consequuntur Optio Dolorem!</p>
-            </div>
-        </div>
-    </section>
-     <!-- Review section End  -->
-
-    <!-- Blogs section Starts -->
-    <section class="blogs" id="blogs">
-        <h1 class="heading">our <span>blogs</span></h1>
-        <div class="box-container">
-            <div class="box">
-                <div class="image">
-                    <img src="./image/blog-1.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="icon">
-                        <a href="#"><i class="fas fa-calendar"></i>1st may, 2021</a>
-                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+            <div id="carouselExampleCaptions " class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
-                    <h3>blog title goes here</h3>
-                    <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Provident, Eius</p>
-                    <a href="#" class="btn">learn more <span class="fas fa-chevron-right"></span> </a>
-                </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img src="./image/blog-2.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="icon">
-                        <a href="#"><i class="fas fa-calendar"></i> 1st may, 2021</a>
-                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/reception.jpg" class="d-block w-100 " alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5 class="fs-2">Reception Area</h5>
+                        <!-- <p>Some representative placeholder content for the first slide.</p> -->
+                        </div>
                     </div>
-                    <h3>blog title goes here</h3>
-                    <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Provident, Eius</p>
-                    <a href="#" class="btn">learn more <span class="fas fa-chevron-right"></span> </a>
-                </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img src="./image/blog-3.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="icon">
-                        <a href="#"><i class="fas fa-calendar"></i> 1st may, 2021</a>
-                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    <div class="carousel-item">
+                        <img src="image/lab.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5 class="fs-2">Medical Lab</h5>
+                        <!-- <p>Some representative placeholder content for the second slide.</p> -->
+                        </div>
                     </div>
-                    <h3>blog title goes here</h3>
-                    <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Provident, Eius</p>
-                    <a href="#" class="btn">learn more <span class="fas fa-chevron-right"></span> </a>
+                    <div class="carousel-item">
+                        <img src="image/pharmacy.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5 class="fs-2">Our Pharmacy</h5>
+                        <!-- <p>Some representative placeholder content for the third slide.</p> -->
+                        </div>
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-            </div>
-        </div>
-    </section>
-    <!-- Blogs section End -->
+			<!-- <div class="image"> -->
+				<!-- <img src="image/home.jpg" alt="" /> -->
+				<!-- <img src="./image/home-img.svg" alt="home-img.svg" /> -->
+			</div>
+			<div class="content">
+				<h3>KATITO MEDICAL CENTRE</h3>
+				<p>We Value Your Health.</p>
+				<a href="#" class="btn"
+					>Book Appointment <span class="fas fa-chevron-right"></span>
+				</a>
+			</div>
+		</section>
+		<!-- Home Section End -->
 
-    <!-- Footer section Starts  -->
-    <section class="footer">
-        <div class="box-container">
-            <div class="box">
-                <h3>quick links</h3>
-                <a href="#"> <i class="fas fa-chevron-right"></i> home</a>
-                <a href="#"> <i class="fas fa-chevron-right"></i> services</a>
-                <a href="#"> <i class="fas fa-chevron-right"></i> about</a>
-                <a href="#"> <i class="fas fa-chevron-right"></i> doctors</a>
-                <a href="#"> <i class="fas fa-chevron-right"></i> book</a>
-                <a href="#"> <i class="fas fa-chevron-right"></i> review</a>
-                <a href="#"> <i class="fas fa-chevron-right"></i> blogs</a>
-            </div>
-            <div class="box">
-                <h3>our services</h3>
-                <a href="#"> <i class="fas fa-chevron-right"></i> dental care</a>
-                <a href="#"> <i class="fas fa-chevron-right"></i> message therapy</a>
-                <a href="#"> <i class="fas fa-chevron-right"></i> cardioloty</a>
-                <a href="#"> <i class="fas fa-chevron-right"></i> diagnosis</a>
-                <a href="#"> <i class="fas fa-chevron-right"></i> ambulance service</a>
-            </div>
-            <div class="box">
-                <h3>contact info</h3>
-                <a href="#"> <i class="fas fa-phone"></i> +123-456-7859</a>
-                <a href="#"> <i class="fas fa-phone"></i> +356-481-0286</a>
-                <a href="#"> <i class="fas fa-envelope"></i> medcare.info.com</a>
-                <a href="#"> <i class="fas fa-envelope"></i> medcare.info.@gmail.com</a>
-                <a href="#"> <i class="fas fa-map-marker-alt"></i>  dhaka, Bangladesh - 1000</a>
-            </div>
-            <div class="box">
-                <h3>follow us</h3>
+        <!-- Review section Starts  -->
+		<section class="review" id="values">
+			<!-- <h1 class="heading">client's <span>review</span></h1> -->
+			<div class="box-container">
+				<div class="box">
+					<!-- <img src="./image/pic-1.png" alt="" /> -->
+                    <div style="height: 10rem; width: 10rem; width: 100%; display: flex; justify-content: center; align-items: center;">
 
-                <a href="#"> <i class="fab fa-facebook-f"></i> facebook</a>
-                <a href="#"> <i class="fab fa-twitter"></i> twitter</a>
-                <a href="#"> <i class="fab fa-linkedin"></i> linkedin</a>
-                <a href="#"> <i class="fab fa-instagram"></i> instagram</a>
-                <a href="#"> <i class="fab fa-youtube"></i> youtube</a>
-                <a href="#"> <i class="fab fa-pinterest"></i> pinterest</a>
-            </div>
-        </div>
-        <div class="credit">created by <span>zaki chowdhury</span> | all right reserved</div>
-    </section>
-    <!-- Footer section End  -->
+                        <i class="fas fa-heartbeat" style="font-size: 5rem;"></i>
+
+                    </div>
+
+					<h3>Vision</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<p class="text">
+						KMC aspires to be a leader in the delivery of quality health care services in the larger Nyanza and Western regions / East African Region through our quality service.
+					</p>
+				</div>
+				<div class="box">
+                    <div style="height: 10rem; width: 10rem; width: 100%; display: flex; justify-content: center; align-items: center;">
+
+                        <i class="fas fa-dna" style="font-size: 5rem;"></i>
+
+                    </div>
+
+					<h3>Mission</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<p class="text">
+						Excellence in medical and surgical care Ÿ Serving patients as individuals and honouring their humanity. Ÿ Team commitment introspect, communication and diversity Ÿ Leadership in advocating for healthcare workers in our community.
+					</p>
+				</div>
+				<div class="box">
+                    <div style="height: 10rem; width: 10rem; width: 100%; display: flex; justify-content: center; align-items: center;">
+
+                        <i class="fas fa-temperature-high" style="font-size: 5rem;"></i>
+
+                    </div>
+
+					<h3>Values</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<p class="text">
+						With our state of art lab, we provide quality research in modern medicine.
+					</p>
+				</div>
+			</div>
+		</section>
+
+
+        	<!-- Service section Starts  -->
+		<section class="services" id="services">
+			<h1 class="heading">Our <span>Services</span></h1>
+			<div class="box-container text-center">
+				<div class="box">
+                    <div class="w-100 text-center">
+                        <i class="fas fa-notes-medical"></i>
+                    </div>
+					<img src="/image/optics.jpeg" alt="" style="width: 100%" />
+					<h3>Optics</h3>
+					<p>Our staff approaches eye care as a team.</p>
+					<a href="#" class="btn"
+						>learn more <span class="fas fa-chevron-right"></span>
+					</a>
+				</div>
+				<div class="box">
+                    <div class="w-100 text-center">
+                        <i class="fas fa-user-md "></i>
+                    </div>
+                    <img src="/image/dentistry.jpeg" alt="" style="width: 100%" />
+
+					<h3>Dental</h3>
+					<p>
+						At KMC, we are committed to treating patients with the compassion
+						and respect they deserve.
+					</p>
+					<a href="#" class="btn"
+						>learn more <span class="fas fa-chevron-right"></span>
+					</a>
+				</div>
+				<div class="box">
+                    <div class="w-100 text-center">
+                        <i class="fas fa-procedures"></i>
+                    </div>
+					<img src="/image/theatre.jpeg" alt="" style="width: 100%" />
+
+					<h3>Theatre</h3>
+					<p>
+						Katito Medical Centre Mbita is a 75 - bed capacity fully fledged
+						modern specialty facility.
+					</p>
+					<a href="#" class="btn"
+						>learn more <span class="fas fa-chevron-right"></span>
+					</a>
+				</div>
+				<div class="box">
+                    <div class="w-100 text-center">
+                        <i class="fas fa-pills"></i>
+                    </div>
+					<img src="/image/pharmacy.jpg" alt="" style="width: 100%" />
+
+					<h3>Pharmacy</h3>
+					<p>
+						Manned by highly qualified professional staff with specialized
+						certifications, Katito Medical Centre pharmacy prides in the quality
+						of professional services offered to clients.
+					</p>
+					<a href="#" class="btn"
+						>learn more <span class="fas fa-chevron-right"></span>
+					</a>
+				</div>
+				<div class="box">
+                    <div class="w-100 text-center">
+                        <i class="fas  fa-user-md"></i>
+                    </div>
+					<img src="/image/consultations.jpeg" alt="" style="width: 100%" />
+
+					<h3>Consultations</h3>
+					<p>
+						We employ qualified and experienced Doctors and clinical officers to
+						ensure that our patients get the best medical advice and care.
+					</p>
+					<a href="#" class="btn"
+						>learn more <span class="fas fa-chevron-right"></span>
+					</a>
+				</div>
+				<div class="box">
+                    <div class="w-100 text-center">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+					<img src="/image/maternity.jpeg" alt="" style="width: 100%" />
+
+					<h3>Meternity</h3>
+					<p>
+						Manned by highly qualified professional staff with specialized
+						certifications, Katito Medical Centre maternity wing offer
+						exceptional maternity services, obstetric and gynecology specialized
+						services.
+					</p>
+					<a href="#" class="btn"
+						>learn more <span class="fas fa-chevron-right"></span>
+					</a>
+				</div>
+			</div>
+		</section>
+		<!-- Service section End  -->
+
+		<!-- icons section starts  -->
+		<section class="icons-container">
+			<div class="icons">
+				<i class="fas fa-user-md"></i>
+				<h3> <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span></h3>
+				<p>
+					<strong>Doctors</strong> Get to meet the doctors who chose their
+					passion as their profession and became the best at what they do.
+				</p>
+			</div>
+			<div class="icons">
+                <i class="far fa-hospital"></i>
+				<h3><span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span></h3>
+				<p>
+					<strong>Departments</strong> We have several departments that can take
+					care of your health needs.
+				</p>
+			</div>
+			<div class="icons">
+                <i class="fas fa-flask"></i>
+				<h3><span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter"></span></h3>
+				<p>
+					<strong>Research Labs</strong> Our state of art lab ensures you get
+					well treatment to diseases of all types.
+				</p>
+			</div>
+			<div class="icons">
+            <i class="fas fa-award"></i>
+
+				<h3> <span data-purecounter-start="0" data-purecounter-end="250" data-purecounter-duration="1" class="purecounter"></span></h3>
+				<p>
+					<strong>Awards</strong> We have received awards both locally and
+					nationally as a level 4 hospital, thus ensuring you we are a state of
+					art hospital.
+				</p>
+			</div>
+		</section>
+		<!-- icons section End  -->
+
+	
+
+		<!-- About section Starts  -->
+		<section class="about" id="about">
+			<h1 class="heading"><span>About</span> us</h1>
+			<div class="row">
+                
+				
+                    <div class="row">
+                        <div id="docimage" class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+                            <a href="video\An9dyA0zAVrl50CPne9XVnwRskgHl7SPZlo790LDNL4of1-opyptstEYarSs1s4wCt3n-YXhikusffrIgGGR4nSM.mp4" class="glightbox play-btn mb-4"></a>
+                        </div>
+                              
+					<!-- <img src="./image/about-img.svg" alt="" /> -->
+				
+				<div class="content col">
+					<h3>we value your health</h3>
+					<p>
+						Katito Medical Centre is a level 4 hospital with its mother branch
+						in Katito town, which was established in December 2019. We are
+						licensed by Kenya Medical Practitioners and Dentist Council,
+						Pharmacy and Poisons Board and Kenya Medical Laboratory
+						Technologists and Technicians Board to operate in Kenya.Our main
+						purpose is to bridge the gap between health care needs of the people
+						and availability of quality affordable healthcare services that is
+						prompt and dependable.
+					</p>
+
+					<p>
+						At KMC, we place high regard for safety, professionalism and clear
+						understanding of the patient’s needs which are the hallmark of our
+						culture.
+					</p>
+					<a href="#" class="btn"
+						>learn more <span class="fas fa-chevron-right"></span>
+					</a>
+				</div>
+			</div>
+		</section>
+		<!-- About section End  -->
+
+		<!-- Doctors section Starts  -->
+		<section class="doctors" id="doctors">
+			<h1 class="heading">Our <span>Doctors</span></h1>
+			<div class="box-container">
+          <!-- <p>Get to meet our team of special doctors who major in 12 different departments. They chose their passion as a profession and that is why they are best at what they do and provide quality medical care to the patients, thus satisfaction of patients.</p> -->
+
+				<div class="box">
+					<img src="./image/docrepicon.png" alt="" />
+					<h3>Bilha Kisoi</h3>
+					<span>Chief Medical Officer</span>
+                <p>Our Chief Medical Officer leads our medical team, ensuring the highest standards of patient care and clinical excellence throughout the hospital.</p>
+
+					<!-- <div class="share">
+						<a href="#" class="fab fa-facebook-f"></a>
+						<a href="#" class="fab fa-twitter"></a>
+						<a href="#" class="fab fa-linkedin"></a>
+						<a href="#" class="fab fa-instagram"></a>
+					</div> -->
+				</div>
+				<div class="box">
+					<img src="./image/docrepicon.png" alt="" />
+					<h3>Daniel Odhiambo</h3>
+                    
+					<span>Anesthetist</span>
+                    <p>Our dedicated Anesthetists ensure your safety and comfort during surgical procedures with expert pain management and anesthesia care.</p>
+					<!-- <div class="share">
+						<a href="#" class="fab fa-facebook-f"></a>
+						<a href="#" class="fab fa-twitter"></a>
+						<a href="#" class="fab fa-linkedin"></a>
+						<a href="#" class="fab fa-instagram"></a>
+					</div> -->
+				</div>
+				<div class="box">
+					<img src="./image/docrepicon.png" alt="" />
+					<h3>Kevin Ochieng</h3>
+                    
+					<span>Surgeon</span>
+                    <p>Our experienced Surgeons offer advanced surgical care, utilizing the latest techniques to ensure optimal outcomes for a wide range of medical conditions.</p>
+					<!-- <div class="share">
+						<a href="#" class="fab fa-facebook-f"></a>
+						<a href="#" class="fab fa-twitter"></a>
+						<a href="#" class="fab fa-linkedin"></a>
+						<a href="#" class="fab fa-instagram"></a>
+					</div> -->
+				</div>
+				<div class="box">
+					<img src="./image/docrepicon.png" alt="" />
+					<h3>Ephraim Ochola</h3>
+					<span>Obstetrics and gynaecologist</span>
+                <p>Our skilled Obstetricians and Gynaecologists provide comprehensive care for women's reproductive health, from routine check-ups to childbirth and specialized treatments.</p>
+
+					<!-- <div class="share">
+						<a href="#" class="fab fa-facebook-f"></a>
+						<a href="#" class="fab fa-twitter"></a>
+						<a href="#" class="fab fa-linkedin"></a>
+						<a href="#" class="fab fa-instagram"></a>
+					</div> -->
+				</div>
+				<!-- <div class="box">
+					<img src="./image/doc-5.jpg" alt="" />
+					<h3>Dr. Fillmore</h3>
+					<span>expert doctor</span>
+
+					<div class="share">
+						<a href="#" class="fab fa-facebook-f"></a>
+						<a href="#" class="fab fa-twitter"></a>
+						<a href="#" class="fab fa-linkedin"></a>
+						<a href="#" class="fab fa-instagram"></a>
+					</div>
+				</div>
+				<div class="box">
+					<img src="./image/doc-6.jpg" alt="" />
+					<h3>Dr. Watamaniuk</h3>
+					<span>expert doctor</span>
+					<div class="share">
+						<a href="#" class="fab fa-facebook-f"></a>
+						<a href="#" class="fab fa-twitter"></a>
+						<a href="#" class="fab fa-linkedin"></a>
+						<a href="#" class="fab fa-instagram"></a>
+					</div>
+				</div> -->
+			</div>
+		</section>
+		<!-- Doctors section Ends  -->
+
+		<!-- Book section Starts  -->
+		<section class="book" id="book">
+			<h1 class="heading"><span>Book</span> Now</h1>
+			<div class="row">
+				<div class="image">
+					<img src="./image/book-img.svg" alt="" />
+				</div>
+				<form id="appointmentForm" >
+					<h3>Book Appointment</h3>
+                    <p class="fs-4">Want to get to know whats happening in your body when a problem arises, get in touch with us by booking a session today. We guarantee total cooperation with our patients to provide the uttermost result of your health, or visit our offices.</p>
+					<input  name="name"type="text" placeholder="your name" class="box" required />
+					<input  name="phone"type="number" placeholder="your number" class="box" required/>
+					<input  name="email"type="email" placeholder="your email" class="box" required />
+					<input  name="date"type="date" id="date" class="box" required/>
+					<input  type="submit" value="book now" class="btn" />
+				</form>
+			</div>
+		</section>
+		<!-- Book section End  -->
+
+		
+		<!-- Review section End  -->
+
+		<!-- Blogs section Starts -->
+		<section class="blogs" id="blogs">
+			<h1 class="heading">Our <span>Blogs</span></h1>
+			<div class="box-container">
+				<div class="box">
+					<div class="image">
+						<img src="./image/blog-1.jpg" alt="" />
+					</div>
+					<div class="content">
+						<div class="icon">
+							<a href="#"><i class="fas fa-calendar"></i>1st may, 2024</a>
+							<a ><i class="fas fa-user"></i> by admin</a>
+						</div>
+						<h3>HEALTH</h3>
+						<p><span class="text-warning">What should pregnant women do to remain healthy? </span><br>
+                            According to experts External link, gaining too much weight during pregnancy raises your chances for developing gestational diabetes (diabetes during pregnancy) and high blood pressure during pregnancy. It also increases your risk for type 2 diabetes and high blood pressure later in life. If you’re overweight or have obesity when you get pregnant, your chances for health problems may be even higher. You could also be more likely to have a cesarean section (C-section)
+
+							
+						</p>
+						<a href="#" class="btn"
+							>learn more <span class="fas fa-chevron-right"></span>
+						</a>
+					</div>
+				</div>
+				<div class="box">
+					<div class="image">
+						<img src="./image/blog-2.jpg" alt="" />
+					</div>
+					<div class="content">
+						<div class="icon">
+							<a ><i class="fas fa-calendar"></i> 1st may, 2024</a>
+							<a ><i class="fas fa-user"></i> by admin</a>
+						</div>
+						<h3>HEALTHCARE</h3>
+						<p>
+							Understand the risks of early drug use on mental and physical health. Learn how substance abuse can hinder educational and career opportunities, strain relationships, and lead to long-term addiction issues. Stay informed to make choices that support a brighter, healthier future. Empower yourself with knowledge to make positive life decisions.
+						</p>
+						<a href="#" class="btn"
+							>learn more <span class="fas fa-chevron-right"></span>
+						</a>
+					</div>
+				</div>
+				<div class="box">
+					<div class="image">
+						<img src="./image/blog-3.jpg" alt="" />
+					</div>
+					<div class="content">
+						<div class="icon">
+							<a ><i class="fas fa-calendar"></i> 1st may, 2024</a>
+							<a ><i class="fas fa-user"></i> by admin</a>
+						</div>
+						<h3>LIFESTYLE</h3><p>
+						<span class="text-warning">Here are 11 essential tips to ensure that you live a healthy lifestyle,</span> all carefully curated and guided by our experienced doctors and top instructors. These tips cover a wide range of health aspects, including balanced nutrition, regular exercise, mental wellness, and proper sleep hygiene. By following these expert recommendations, you can improve your overall well-being, boost your energy levels, and enhance your quality of life. Whether you're looking to maintain a healthy weight, manage stress, or simply adopt healthier habits, our comprehensive guide provides you with the tools and knowledge needed to achieve your health goals.
+						</p>
+						<a href="#" class="btn"
+							>learn more <span class="fas fa-chevron-right"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Blogs section End -->
+
+		<!-- Map section Starts -->
+		<section class="blogs" id="map">
+			<h1 class="heading">Find <span>Us</span></h1>
+			<div class="box-container">
+      <div class="mapouter "><div class="gmap_canvas"><iframe class="gmap_iframe card" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=670&amp;height=363&amp;hl=en&amp;q=katito-hospital&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://maps.app.goo.gl/9wSPRXsd4FZru9n69">FNF Mods</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:363px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:363px;}.gmap_iframe {height:363px!important;}</style></div>
+
+				
+			</div>
+		</section>
+		<!-- Blogs section End -->
+
+		<!-- Footer section Starts  -->
+		<section class="footer">
+			<div class="box-container">
+				<div class="box">
+					<h3>quick links</h3>
+					<a href="#home"> <i class="fas fa-chevron-right"></i> home</a>
+					<a href="#services"> <i class="fas fa-chevron-right"></i> services</a>
+					<a href="#about"> <i class="fas fa-chevron-right"></i> about</a>
+					<a href="#doctors"> <i class="fas fa-chevron-right"></i> doctors</a>
+					<a href="#book"> <i class="fas fa-chevron-right"></i> book</a>
+					<a href="#values"> <i class="fas fa-chevron-right"></i> values</a>
+					<a href="#blogs"> <i class="fas fa-chevron-right"></i> blogs</a>
+				</div>
+				<div class="box">
+					<h3>our services</h3>
+					<a href="#"> <i class="fas fa-chevron-right"></i> Optics</a>
+					<a href="#"> <i class="fas fa-chevron-right"></i> Dental</a>
+					<a href="#"> <i class="fas fa-chevron-right"></i> Theatre</a>
+					<a href="#"> <i class="fas fa-chevron-right"></i> Pharmacy</a>
+					<a href="#"><i class="fas fa-chevron-right"></i> Consultations</a>
+					<a href="#"><i class="fas fa-chevron-right"></i> Maternity</a>
+				</div>
+				<div class="box">
+					<h3>contact info</h3>
+					<a href="tel:+254750677900"><i class="fas fa-phone"></i> +254 750 677 900</a>
+					<!-- <a href="#"> <i class="fas fa-phone"></i> +356-481-0286</a> -->
+					<a href="mailto:info@kmckenya.co.ke"> <i class="fas fa-envelope"></i> info@kmckenya.co.ke</a>
+					<a href="mailto:info@kmckenya.co.ke">
+						<i class="fas fa-envelope"></i> info@kmckenya.co.ke</a
+					>
+					<a href="#">
+						<i class="fas fa-map-marker-alt"></i> Katito-Homabay Road, <br> 40118, Katito  </a
+					>
+				</div>
+				<div class="box">
+					<h3>follow us</h3>
+
+					<a href="https://www.facebook.com/Katitomedical"> <i class="fab fa-facebook-f"></i> facebook</a>
+					<a href="#"> <i class="fab fa-twitter"></i> twitter</a>
+					<a href="#"> <i class="fab fa-linkedin"></i> linkedin</a>
+					<a href="#"> <i class="fab fa-instagram"></i> instagram</a>
+					<a href="#"> <i class="fab fa-youtube"></i> youtube</a>
+					<!-- <a href="#"> <i class="fab fa-pinterest"></i> pinterest</a> -->
+				</div>
+			</div>
+           
+			<div class="credit ">
+                <div class="copyright ">
+                    &copy; Copyright <strong><span>KATITO MEDICAL</span></strong>. <br> All Rights Reserved
+                  </div>
+				created by <span><a href="https://github.com/developer-austine" target="_blank">Dev Ausitine Alex</a> &amp; <a href="https://github.com/developer-austine target="_blank"">Dev Elvis Kemoi</a></span> | all right reserved
+			</div>
+		</section>
+		<!-- Footer section End  -->
+
+		<!-- custom js file link  -->
+  <script src="./js/animation.js"></script>
+
+
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+		<script src="js/script.js"></script>
+  <!-- <script src="vendor/glightbox/js/glightbox.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="js/purecounter.js"></script>
 
 
 
+  <script src="js/sendmail.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-
-
-
-
-
-
-
-    <!-- custom js file link  -->
-    <script src="js/script.js"></script>
-</body>
+	</body>
 </html>
