@@ -108,6 +108,11 @@ section:nth-child(even) {
 .header .navbar a:hover {
 	color: var(--green);
 }
+
+.header .navbar a.btn:hover {
+	color: white;
+}
+
 #menu-btn {
 	font-size: 2.5rem;
 	border-radius: 0.5rem;
@@ -625,4 +630,32 @@ section:nth-child(even) {
 		transform: scale(1, 1);
 		opacity: 0;
 	}
+}
+
+.background {
+	background-image: url("../image/home.jpg"); /* Replace with your image URL */
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 75%;
+}
+
+.overlay {
+	/* background-color: rgba(128, 128, 128, 0.7); Grey with transparency */
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+.title {
+	/* color: white; */
+	/* Change this to match your website's color scheme */
+	font-weight: bold;
+	margin-top: 15vh;
 }
