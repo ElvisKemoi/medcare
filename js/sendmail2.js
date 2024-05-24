@@ -26,9 +26,9 @@ function getData(event) {
 	const formData = new FormData(form);
 
 	// Log the form data
-	for (const [key, value] of formData.entries()) {
-		console.log(`${key}: ${value}`);
-	}
+	// for (const [key, value] of formData.entries()) {
+	// 	console.log(`${key}: ${value}`);
+	// }
 
 	// You can also convert the form data to an object or JSON if needed
 	const formDataObject = Object.fromEntries(formData.entries());
