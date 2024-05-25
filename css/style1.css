@@ -659,3 +659,36 @@ section:nth-child(even) {
 	font-weight: bold;
 	margin-top: 15vh;
 }
+
+/* labService section Starts */
+.labServices .box-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+	gap: 2rem;
+}
+.labServices .box-container .box {
+	background: #fff;
+	border-radius: 0.5rem;
+	box-shadow: var(--box-shadow);
+	border: var(--border);
+	padding: 2.5rem;
+}
+.labServices .box-container .box i {
+	color: var(--green);
+	font-size: 5rem;
+	padding-bottom: 0.5rem;
+}
+.labServices .box-container .box h3 {
+	color: var(--black);
+	font-size: 2.5rem;
+	padding: 1rem 0;
+}
+.labServices .box-container .box p {
+	color: var(--light-color);
+	font-size: 1.4rem;
+	line-height: 2;
+}
+/* Service section End */
+.accordion-collapse {
+	transition: 0.2s ease-in;
+}
